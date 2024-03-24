@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:title="Select your choice "/>
+
+    <item
+        android:id="@+id/bookmark_1"
+        android:title="Bookmark "/>
+
+
+
+    <item
+        android:id="@+id/report"
+        android:title="Report Error"/>
+
+
+    <item
+        android:id="@+id/quit"
+        android:title="Quit Exam"/>
+</menu>

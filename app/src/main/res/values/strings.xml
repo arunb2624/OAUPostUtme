@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">O.A.U Post-Utme</string>
+
+
+    <string name="register">Connect</string>
+
+    <string name="login_email_hint">Enter new Username</string>
+
+    <string name="login_password_hint">Enter activation key</string>
+
+    <string name="signup_login_hint">Already have activation key</string>
+
+    <string name="login_signup_hint">Buy activation key</string>
+
+    <string name="login_name_hint">Name</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_mobile_number_hint">Mobile Number</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>

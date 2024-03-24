@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Account_Years.Year_model_3">
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/sss"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F76543A3"
+        android:padding="8dp">
+
+
+        <ImageView
+            android:id="@+id/home_year_2013"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <Button
+
+            android:id="@+id/submit_2013"
+            android:layout_width="wrap_content"
+            android:drawableEnd="@drawable/submit"
+            android:drawableTint="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_centerVertical="true"
+            android:background="@drawable/white_background"
+            android:text="Submit"
+
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/calculateyear13"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="13dp"
+            android:src="@drawable/calculator"
+            android:tint="@color/white" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sss"
+        android:layout_marginTop="10dp"
+        android:background="#17E6E4E4"
+        android:padding="2dp">
+
+
+        <TextView
+
+            android:id="@+id/timer_2013"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=" 59:00"
+
+            android:textColor="#240E4A"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/timefor_question13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:text="59:00"
+            android:textColor="@color/purple_700"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_question_count13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:gravity="center"
+            android:text=" Question : 1/40"
+            android:textAlignment="viewStart"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/cc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/c1"
+
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#17E6E4E4"
+        android:orientation="horizontal"
+        android:padding="1dp">
+
+
+        <TextView
+            android:id="@+id/scoreTV_2013"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="110dp"
+            android:layout_marginEnd="110dp"
+            android:background="@color/loginBkColor"
+            android:gravity="center"
+            android:text="Score: 0"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@id/cc"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="10dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="40dp"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/text_view_questionTv13"
+                android:layout_width="match_parent"
+                android:textColor="#D8070707"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+
+                android:layout_marginBottom="16dp"
+                android:text="Here will be the question text\nHere will be question text\nHere will be the question text"
+                android:textAlignment="textStart"
+                android:textSize="21sp"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="A  "
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+
+
+
+
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:visibility="gone"
+                    android:src="@drawable/mark"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/A_ans_right13"/>
+
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:visibility="gone"
+                    android:src="@drawable/wrong"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/A_ans_wrong13"/>
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/option_a_2013"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="#EDE7F6"
+                    android:text="optionkdfvbhafygsfgsyafgykgfygykufwugfvgwqvfyqwbdyqfwdyvwfqdvqhywjbdfwqybdfwq6dtvyqwkbdgkqvfgqefydeg 1"
+                    android:textAlignment="textStart"
+                    android:textSize="12sp"
+
+                    android:textColor="#D70B0B0B"
+
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="B  "
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:visibility="gone"
+                    android:src="@drawable/wrong"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/B_ans_wrong13"/>
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:visibility="gone"
+                    android:src="@drawable/mark"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/B_ans_right13"/>
+
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/option_b_2013"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="#EDE7F6"
+                    android:text="optionkdfvbhafygsfgsyafgykgfygykufwugfvgwqvfyqwbdyqfwdyvwfqdvqhywjbdfwqybdfwq6dtvyqwkbdgkqvfgqefydeg 1"
+                    android:textAlignment="textStart"
+                    android:textSize="12sp"
+
+                    android:textColor="#D70B0B0B"
+
+                    android:textStyle="normal" />
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="C  "
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:visibility="gone"
+                    android:src="@drawable/wrong"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/C_ans_wrong13"/>
+
+                <ImageView
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:src="@drawable/mark"
+                    android:id="@+id/C_ans_right13"/>
+
+
+
+                <Button
+                    android:id="@+id/option_c_2013"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="#EDE7F6"
+                    android:text="optionkdfvbhafygsfgsyafgykgfygykufwugfvgwqvfyqwbdyqfwdyvwfqdvqhywjbdfwqybdfwq6dtvyqwkbdgkqvfgqefydeg 1"
+                    android:textAlignment="textStart"
+                    android:textSize="12sp"
+
+                    android:textColor="#D70B0B0B"
+                    android:textStyle="normal" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="D  "
+                    android:textColor="@color/black"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:visibility="gone"
+                    android:src="@drawable/wrong"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/D_ans_wrong13"/>
+
+                <ImageView
+                    android:id="@+id/D_ans_right13"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/mark" />
+
+                <Button
+                    android:id="@+id/option_d_2013"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="#EDE7F6"
+                    android:text="optionkdfvbhafygsfgsyafgykgfygykufwugfvgwqvfyqwbdyqfwdyvwfqdvqhywjbdfwqybdfwq6dtvyqwkbdgkqvfgqefydeg 1"
+                    android:textAlignment="textStart"
+                    android:textSize="12sp"
+
+                    android:textColor="#D70B0B0B"
+
+                    android:textStyle="normal" />
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text_explanation13"
+                    android:layout_width="match_parent"
+                    android:textColor="#D8070707"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Explanation"
+                    android:textAlignment="textStart"
+
+                    android:layout_gravity="center_vertical"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/speaker13"
+                    android:layout_width="26dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_height="26dp"
+                    android:src="@drawable/speaker1"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/text_explanation_word_sub13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginBottom="14dp"
+                    android:text="here will be question text\nHere will be the question text"
+                    android:textAlignment="textStart"
+                    android:textSize="17sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:id="@+id/bbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scrollView"
+
+            android:padding="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scrollView"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:padding="8dp">
+
+
+                <ImageView
+                    android:id="@+id/left_prevoius_btn_2013"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/left"
+                    android:tint="#F76543A3" />
+
+                <ImageView
+                    android:id="@+id/hint_show_answer_btn_2013"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/eye"
+                    android:tint="#F76543A3" />
+
+                <ImageView
+                    android:id="@+id/right_next_quetion_btn_2013"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/rigth"
+
+                    android:tint="#F76543A3" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

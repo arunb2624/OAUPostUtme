@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/login"
+    android:layout_height="match_parent"
+    tools:context=".Starting_Accunt_Page.start_accoun_year_1_past_question">
+
+
+
+    <ImageView
+        android:id="@+id/back_start_year1"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentStart="true"
+
+        android:src="@drawable/baseline_arrow_back_24"
+        app:tint="@color/black" />
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/ss"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:textColor="@color/lavender"
+        android:text="Finacial Account"
+        android:layout_marginTop="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="vertical"
+        android:layout_below="@id/ss"
+        android:layout_marginTop="10dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="150dp"
+            android:gravity="center_vertical"
+            android:text="Study Mode - No timing,only show  answer for each question"
+            android:drawableTint="@color/black"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:gravity="start"
+        android:textColor="@color/purple_700"
+        android:text="Finacial Account"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/button_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:onClick="startTimer"
+        android:layout_centerHorizontal="true"
+        android:text="Start Practice" />
+
+
+
+</RelativeLayout>

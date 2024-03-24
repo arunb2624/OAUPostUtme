@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/nav_home"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/past_question"
+        android:icon="@drawable/baseline_date_range_24"
+        android:title="Past q"/>
+
+    <item
+        android:id="@+id/exam"
+        android:icon="@drawable/baseline_computer_24"
+        android:title="Exam"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="About Us"/>
+</menu>

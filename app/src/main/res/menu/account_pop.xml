@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:title="Select your choice mode"/>
+
+    <item
+        android:id="@+id/account_mock"
+        android:title="Mock "/>
+
+
+
+    <item
+        android:id="@+id/account_study"
+        android:title="Study course"/>
+</menu>

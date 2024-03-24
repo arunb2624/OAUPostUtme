@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialogbg"
+    android:layout_height="match_parent">
+
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="25dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center|top"
+        android:src="@drawable/baseline_group_work_24"/>
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/lavender"
+        android:padding="8dp"
+        android:text="Management"
+        android:textAlignment="viewStart"
+        android:id="@+id/createText"/>
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/baseline_check_circle_24"
+        android:layout_marginTop="8dp"
+        android:id="@+id/cancelButton"
+        android:layout_marginLeft="250dp"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:id="@+id/layoutVideo">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/baseline_school_24"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/lavender"
+        android:text="About Campus"
+        android:layout_marginLeft="30dp"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:id="@+id/layoutShorts">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/baseline_person_24"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/lavender"
+        android:text="Developer"
+        android:layout_marginLeft="30dp"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/layoutLive"
+    android:paddingBottom="30dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/baseline_offline_share_24"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/lavender"
+        android:text="Share to friends"
+        android:layout_marginLeft="30dp"/>
+
+</LinearLayout>
+
+
+</LinearLayout>
